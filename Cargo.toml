@@ -1,12 +1,12 @@
 [package]
-authors = ["Xuanwo <github@xuanwo.io>>"]
-categories = ["command-line-utilities"]
-description = "Replace with description"
-documentation = "https://docs.rs/formwork"
-repository = "https://github.com/Xuanwo/formwork"
+authors = ["Xuanwo <github@xuanwo.io>"]
+categories = ["database-implementations"]
+description = "A Flight SQL server backed by Lance datasets."
+documentation = "https://docs.rs/lance-fly"
+repository = "https://github.com/lance-format/lance-fly"
 edition = "2021"
 license = "Apache-2.0"
-name = "formwork"
+name = "lance-fly"
 version = "0.0.1"
 
 [dependencies]
