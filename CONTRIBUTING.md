@@ -2,6 +2,12 @@
 
 ## Get Started
 
-This repository is under active development and currently contains only minimal scaffolding.
+This is a Rust project, so [rustup](https://rustup.rs/) is the best place to start.
 
-- Open an issue for proposals and design discussions.
+This is a pure rust project, so only `cargo` is needed.
+
+- `cargo check` to analyze the current package and report errors.
+- `cargo build` to compile the current package.
+- `cargo clippy` to catch common mistakes and improve code.
+- `cargo test` to run unit tests.
+- `cargo bench` to run benchmark tests.
