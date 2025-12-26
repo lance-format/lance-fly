@@ -1,25 +1,8 @@
-# formwork &emsp; [![Build Status]][actions] [![Latest Version]][crates.io]
+# lance-fly
 
-[Build Status]: https://img.shields.io/github/actions/workflow/status/Xuanwo/formwork/ci.yml
-[actions]: https://github.com/Xuanwo/formwork/actions?query=branch%3Amain
-[Latest Version]: https://img.shields.io/crates/v/formwork.svg
-[crates.io]: https://crates.io/crates/formwork
+`lance-fly` is a Flight SQL server backed by Lance datasets.
 
-`formwork` is my favourite rust template.
-
-> Please replace with valid value.
-
-## Quick Start
-
-Replace all placeholder with valid values, for example:
-
-- `Xuanwo` => github login
-- `github@xuanwo.io` => email
-- `formwork` => crate name
-
-```rust
-// Replace with quick Start here
-```
+Status: scaffolding only.
 
 ## Contributing
 
@@ -27,7 +10,7 @@ Check out the [CONTRIBUTING.md](./CONTRIBUTING.md) guide for more details on get
 
 ## Getting help
 
-Submit [issues](https://github.com/Xuanwo/formwork/issues/new/choose) for bug report or asking questions in [discussion](https://github.com/Xuanwo/formwork/discussions/new?category=q-a).
+Submit [issues](https://github.com/lance-format/lance-fly/issues/new/choose) for bug report or asking questions in [discussion](https://github.com/lance-format/lance-fly/discussions/new?category=q-a).
 
 #### License
 
