@@ -2,7 +2,33 @@
 
 `lance-fly` is a Flight SQL server backed by Lance datasets.
 
-Status: scaffolding only.
+Status: minimal server skeleton.
+
+## Quickstart
+
+Run the server:
+
+```bash
+cargo run -- --bind 127.0.0.1:50051
+```
+
+Enable logs via `tracing`:
+
+```bash
+RUST_LOG=info cargo run -- --bind 127.0.0.1:50051
+```
+
+Open a Lance dataset on startup:
+
+```bash
+cargo run -- --bind 127.0.0.1:50051 --dataset /path/to/dataset
+```
+
+Smoke test:
+
+```bash
+cargo test
+```
 
 ## Contributing
 
