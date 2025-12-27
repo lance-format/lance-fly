@@ -10,3 +10,17 @@ name = "lance-fly"
 version = "0.0.1"
 
 [dependencies]
+anyhow = "1"
+arrow-flight = "57"
+bytes = "1"
+clap = { version = "4", features = ["derive"] }
+futures = "0.3"
+lance = { version = "1", default-features = false }
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "signal"] }
+tokio-stream = { version = "0.1", features = ["net"] }
+tonic = { version = "0.14", features = ["transport"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+[dev-dependencies]
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "time"] }
